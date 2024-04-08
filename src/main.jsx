@@ -13,17 +13,6 @@ import { ThemeProvider } from './context/themeSwitch.jsx'
 import Project from './componets/github/Project.jsx'
 
 
-const darkMode = () =>{
-    document.querySelector("html").classList.remove("light")
-    document.querySelector("html").classList.add("dark")
-}
-
-const lightMode = () =>{
-  document.querySelector("html").classList.remove("dark")
-  document.querySelector("html").classList.add("light")
-}
-
-
 
 const router = createBrowserRouter([
   {
@@ -52,7 +41,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <ThemeProvider value={{darkMode,lightMode}}>
+     <ThemeProvider>
     <RouterProvider router={router}/>
     </ThemeProvider>
   </React.StrictMode>,
