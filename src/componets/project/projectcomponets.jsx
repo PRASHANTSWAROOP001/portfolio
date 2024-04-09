@@ -2,9 +2,9 @@ import React from 'react'
 
 function Projectcomponets() {
   return (
-    <div className=' w-1/3 h-72 border-2 border-yellow-400 rounded-3xl'>
+   <div className=' w-72  h-80 border-2 border-yellow-300 rounded-lg'>
 
-    </div>
+   </div>
   )
 }
 

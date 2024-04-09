@@ -61,7 +61,7 @@ function Contact() {
         <div className=" w-3/5 h-full object-cover ">
           <div className=" my-8 mx-10">
             <h1 className="text-4xl font-medium ">Contact Me</h1>
-            <p className=" font-normal py-2">
+            <p className=" font-medium py-2">
               Hey Folks! You can send messages using the form below. Any tips or feedback to improve UI/UX is welcomed.
               Positive Criticism is also welcomed.
             </p>

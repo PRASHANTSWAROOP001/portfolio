@@ -48,7 +48,7 @@ function About() {
           </span>
         </h1>
 
-        <p className=" py-3 text-lg">
+        <p className="font-medium py-3 text-lg">
           Hi I am an aspiring webdeveloper. I am currently learning new
           technologies. If you are also a tech guy we can connect...
         </p>
