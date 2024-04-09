@@ -19,10 +19,10 @@ function TechComp(props) {
 
         <div className="absolute top-6 left-2 text-left my-2 py-2">
           <h3 className=" text-xl text-yellow-400 font-bold">{mainHead1}</h3>
-          <p className=" text-lg">{para1}</p>
+          <p className=" sm:text-normal lg:text-lg">{para1}</p>
           <br />
           <h3 className="text-xl text-yellow-400 font-bold ">{mainHead2}</h3>
-          <p className="text-lg px-1">{para2}</p>
+          <p className="sm:text-normal lg:text-lg px-1">{para2}</p>
         </div>
 
         <div className=" absolute  right-4 bottom-1 flex justify-center items-center gap-2">
