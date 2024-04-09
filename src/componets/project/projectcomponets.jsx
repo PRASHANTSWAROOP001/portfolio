@@ -35,7 +35,7 @@ function Projectcomponets({data}) {
 
       <div className='absolute bottom-1 right-2'>
       <div className='flex items-center gap-1 hover:text-orange-400'>
-        <a href={liveLink} className='font-medium' >Live Link</a>
+        <a href={liveLink} target='_blank' className='font-medium' >Live Link</a>
         <GrDeploy />
       </div>
       </div>
